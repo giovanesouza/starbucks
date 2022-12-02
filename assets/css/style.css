@@ -1,19 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&family=Oswald:wght@400;700&display=swap');
 
 
-/* font-family: 'Oswald', sans-serif; */
-
-
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
-    
+
 }
 
+/* DEFINE LARGURA PADRÃO COM CONTEÚDO CENTRALIZADO */
 .container {
     max-width: 1140px;
     margin: auto;
 }
+
 
 /* HEADER */
 
@@ -69,8 +68,8 @@ header .line {
 }
 
 .header-search button img {
-   width: 16px;
-   height: 16px;
+    width: 16px;
+    height: 16px;
 }
 
 .header-menu {
@@ -81,4 +80,38 @@ header .line {
 .header-menu img {
     width: 24px;
     height: 24px;
+}
+
+
+/* ÁREA BANNER */
+.banner {
+    background-image: url('../images/bg.jpg');
+    background-position: center;
+    background-size: cover;
+
+    padding: 90px 0;
+}
+
+.banner h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 90px;
+    line-height: 100px;
+
+    margin: 0;
+    margin-bottom: 60px;
+
+}
+
+
+.banner-images {
+    margin-top: 60px;
+}
+
+.banner-images img {
+    width: 148px;
+    height: 148px;
+    border: 6px solid #117050;
+    border-radius: 50%;
+    margin-right: 40px;
 }
