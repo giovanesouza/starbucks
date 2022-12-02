@@ -192,3 +192,45 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* ÁREA 2 */
+
+.area2 {
+    display: grid;
+    /* DIVISÃO COM TAMANHOS IGUAIS */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area2-content {
+    padding: 80px;
+}
+
+.area2-text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
+.area2-img1 {
+    height: 450px;
+
+
+    /* IMG COMO BG AJUDA AO TRABALHAR COM A RESPONSIVIDADE */
+    background-image: url('../images/f4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* A ALTURA DESTA IMAGEM DEPENDO DO TAMANHO DO CONTEÚDO */
+.area2-img2 {
+    /* COMEÇA NA PRIMEIRA LINHA, SEGUNDA COLUNA E TERMINA NA ÚLTIMA LINHA DA MESMA COLUNA */
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+
+    /* IMG COMO BG AJUDA AO TRABALHAR COM A RESPONSIVIDADE */
+    background-image: url('../images/f3.jpg');
+    background-size: cover;
+    background-position: center;
+}
