@@ -247,11 +247,11 @@ header .line {
 .area3-content {
     padding: 200px 80px;
 
-        /* IMG COMO BG AJUDA AO TRABALHAR COM A RESPONSIVIDADE */
-        background-image: url('../images/bg2.jpg');
-        background-size: cover;
-        /* POSITION QUE FOCA NO LOGO */
-        background-position: left;
+    /* IMG COMO BG AJUDA AO TRABALHAR COM A RESPONSIVIDADE */
+    background-image: url('../images/bg2.jpg');
+    background-size: cover;
+    /* POSITION QUE FOCA NO LOGO */
+    background-position: left;
 }
 
 .area3-text {
@@ -266,3 +266,64 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+
+
+/* ÁREA 4 */
+
+.area4 {
+    display: grid;
+    /* 1 COLUNA COM TAMANHO FIXO E OUTRA COM O RESTANTE DO ESPAÇO DISPONÍVEL */
+    grid-template-columns: 450px 1fr;
+
+    background-color: #E8E9EE;
+}
+
+.area4-content {
+    padding: 150px 80px;
+
+}
+
+.area4-text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
+.area4-img1 {
+    background-image: url('../images/bg3.jpg');
+    background-position: left;
+}
+
+/* ÁREA 5 */
+.area5 {
+    height: 600px;
+    background-image: url('../images/bg4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* RODAPÉ */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 80px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    padding: 2px;
+    transition: all 0.5s;
+}
+
+footer a:hover {
+    
+    background-color: #fff;
+    color: #117050;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
