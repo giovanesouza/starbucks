@@ -234,3 +234,35 @@ header .line {
     background-size: cover;
     background-position: center;
 }
+
+
+/* ÁREA 3 */
+
+.area3 {
+    display: grid;
+    /* DIVISÃO COM TAMANHOS IGUAIS */
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.area3-content {
+    padding: 200px 80px;
+
+        /* IMG COMO BG AJUDA AO TRABALHAR COM A RESPONSIVIDADE */
+        background-image: url('../images/bg2.jpg');
+        background-size: cover;
+        /* POSITION QUE FOCA NO LOGO */
+        background-position: left;
+}
+
+.area3-text {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
+.area3-img1 {
+    /* IMG COMO BG AJUDA AO TRABALHAR COM A RESPONSIVIDADE */
+    background-image: url('../images/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
